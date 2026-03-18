@@ -6,6 +6,7 @@ namespace Calculs
     /// Application Calculs : addition ou multiplication de 2 nombres
     /// </summary>
     class Program
+
     {
         static void Main(string[] args)
         {
@@ -16,6 +17,8 @@ namespace Calculs
             int reponse = 0; // saisie de la réponse de l'utilisateur
             string choix; // saisie du choix de l'utilsiateur
             bool correct; // mémorise si la saisie est un entier
+            val1 = rand.Next(1, 10);
+            val2 = rand.Next(1, 10);
 
             // boucle sur le menu
             choix = "1";
